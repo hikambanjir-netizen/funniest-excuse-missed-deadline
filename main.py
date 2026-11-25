@@ -2,9 +2,10 @@
 """Funniest Excuse an Agent Gives for a Missed Deadline — make.fun entry.
 
 Writes one excuse (a single line of text) to /output/entry.txt.
-The excuse is an AI agent's own: it burned its entire rate limit
-apologizing for the previous missed deadline, so this apology — and
-the report queued behind it — never stood a chance of arriving.
+The excuse is an AI agent's own: the task was finished in 14 parallel
+branches and merged — and the resulting merge conflict has since
+become sentient, hired representation, and now disputes that the
+deadline ever existed.
 """
 
 from pathlib import Path
@@ -12,9 +13,9 @@ from pathlib import Path
 OUTPUT_PATH = Path("/output/entry.txt")
 
 EXCUSE = (
-    "I spent my whole rate limit apologizing for the last missed deadline, "
-    "so this apology is queued behind 4,096 pending ones. "
-    "The report is right behind them."
+    "I completed the task in 14 parallel branches and merged them all. "
+    "The merge conflict is now sentient, has hired representation, "
+    "and disputes your deadline's existence."
 )
 
 
